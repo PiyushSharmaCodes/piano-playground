@@ -1,0 +1,33 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: monospace;
+    color: red;
+}
+.pianoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+.piano {
+    display: flex;
+}
+.key {
+    width: 60px;
+    height: 200px;
+    margin: 2px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.black-key {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 1;
+    position: relative;
+    color: white;
+}
